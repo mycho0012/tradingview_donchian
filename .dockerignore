@@ -1,0 +1,42 @@
+# 환경 설정 파일 (보안상 제외)
+.env
+
+# Git 관련
+.git
+.gitignore
+
+# Python 캐시
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env
+pip-log.txt
+pip-delete-this-directory.txt
+.tox
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.git
+.mypy_cache
+.pytest_cache
+
+# IDE
+.vscode
+.idea
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 로그 파일
+logs/
+*.log
+
+# 테스트 파일
+test_*.py
